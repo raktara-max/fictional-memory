@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    margin-top: 150px;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+p {
+    font-size: 20px;
+}
+
+button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
