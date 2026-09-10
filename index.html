@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Catatan Keuangan</title>
+
+<style>
+    * {
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
+
+    body {
+        margin: 0;
+        background: #f1f5f9;
+        color: #0f172a;
+    }
+
+    .container {
+        max-width: 700px;
+        margin: auto;
+        padding: 20px;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .saldo {
+        background: #2563eb;
+        color: white;
+        padding: 25px;
+        border-radius: 15px;
+        margin-bottom: 15px;
+    }
+
+    .saldo h2 {
+        margin: 8px 0 0;
+    }
+
+    .ringkasan {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 12px;
+    }
+
+    .card {
+        background: white;
+        padding: 18px;
+        border-radius: 12px;
+        box-shadow: 0 2px 8px #0001;
+    }
+
+    .masuk {
+        color: #16a34a;
+    }
+
+    .keluar {
+        color: #dc2626;
+    }
+
+    form {
+        margin-top: 15px;
+        background: white;
+        padding: 18px;
+        border-radius: 12px;
+    }
+
+    input, select, button {
+        width: 100%;
+        padding: 12px;
+        margin-top: 10px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+    }
+
+    button {
+        background: #2563eb;
+        color: white;
+        border: none;
+        cursor: pointer;
+        font-weight: bold;
+    }
+
+    .transaksi {
+        margin-top: 15px;
+    }
+
+    .item {
+        display: flex;
